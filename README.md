@@ -16,6 +16,35 @@ Collision Detection: Collision detection is implemented to detect when the bird 
 
 Graphics and Animation: The game features simple graphics and animation for the bird, tubes, and background, providing an engaging visual experience.
 
-How to Play:
+Setup and Installation
+Requirements:
+  Java Development Kit (JDK 8+)
+  LibGDX framework
+  IDE with Java support (e.g., IntelliJ IDEA, Eclipse)
 
-Tap the screen to make the bird flap its wings and gain altitude.Navigate the bird through the gaps between the tubes to score points.Avoid colliding with the tubes, as this will end the game.Try to achieve the highest score possible by passing through as many pairs of tubes as you can.This Flappy Bird game provides a fun and challenging gaming experience, suitable for players of all ages. It showcases fundamental game development concepts such as user input, collision detection, and scoring systems, making it an excellent starting point for aspiring game developers.
+Steps to Set Up:
+Clone or download this repository.
+Install the LibGDX framework using the setup tool.
+Place the following assets in the android/assets directory:
+  bg.png - Background image
+  bird.png - First bird frame
+  bird2.png - Second bird frame
+  toptube.png - Top tube texture
+  bottomtube.png - Bottom tube texture
+Import the project into your IDE.
+  Run the desktop launcher to start the game.
+
+
+How to Play
+Start the Game:
+  Click anywhere on the screen to start the game.
+Flap:
+  Click or tap to make the bird ascend.
+Avoid Tubes:
+  Navigate the bird through the gaps between tubes to avoid collisions.
+Score Points:
+  Pass through tubes to increase your score.
+
+Known Issues
+  The game state resets immediately upon collision, without a restart menu.  
+  The bird's collision detection might be slightly off depending on tube positioning.
